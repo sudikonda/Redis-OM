@@ -171,7 +171,6 @@ def subscribe_and_insert_orders(stream_name: str = 'orders', last_id: str = '$')
 
 
 if __name__ == "__main__":
-    os.environ['REDIS_OM_URL'] = 'redis://default:heAkNcn5xz2wq6rqgKRCE7qxznTKfkUX@redis-19536.c261.us-east-1-4.ec2.redns.redis-cloud.com:19536'
 
     # Configuration
     STREAM_NAME = "orders"
